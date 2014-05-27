@@ -1,0 +1,36 @@
+{
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "freeze": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "undef": true,
+    "unused": true,
+    "trailing": true,
+    "strict": true,
+    
+    "node": true,
+
+    "maxparams": 5,
+    "maxdepth": 5,
+    "quotmark": "double",
+    "indent": 4,
+
+    "overrides": {
+        "^test\/": {
+            "globals": {
+                "afterEach": true,
+                "beforeEach": true,
+                "describe": true,
+                "it": true,
+                "xdescribe": true,
+                "xit": true
+            }
+        }
+    }
+}
