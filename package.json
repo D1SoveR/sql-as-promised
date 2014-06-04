@@ -1,13 +1,13 @@
 {
-  "name": "when-sql",
+  "name": "sql-as-promised",
   "description": "Wrapper around sql.js library to handle database operations through Promises/A+ interface.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "SQL",
     "SQLite",
+    "database",
     "promise",
     "promises",
-    "when",
     "deferred",
     "deferreds",
     "async"
@@ -20,11 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/D1SoveR/when-sql.git"
+    "url": "https://github.com/D1SoveR/sql-as-promised.git"
   },
   "dependencies": {
-    "sql.js": "^0.2.1",
-    "when": "^3.2.2"
+    "sql.js": "^0.2.1"
   },
   "devDependencies": {
     "chai": "^1.9.1",
